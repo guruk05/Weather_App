@@ -1,8 +1,6 @@
 # Weather_App
 
-Simple Weather application designed and developed to view the weather…
-
-… details of various cities.
+Simple Weather application designed and developed to view the weather details of various cities.
 
 Built with :
 
