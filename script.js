@@ -14,7 +14,7 @@ const cityList = [
 function updateWeather() 
 {
     let currentCity = document.getElementById("cityName").value;
-    var op = cityList.filter(city => 
+    var cityname = cityList.filter(city => 
         { 
         if(city.name == currentCity ) 
         {
