@@ -1,0 +1,59 @@
+body{
+    padding: 0;margin: 0;}
+
+.container{
+    height:100vh;}
+
+.alignCenter{
+    align-items:center;}
+
+.flex{
+    display: flex;}
+
+.flex1{
+    flex:1;}
+
+.appName{
+    height: 100vh; display: flex; align-items: center; justify-content: center;background: #1890f0;}
+
+.flex1 .appName span{
+    color:red;}
+
+.bgColor{
+    background:blue;}
+
+.heading{
+    align-items: center;}
+
+.headingColor{
+    color:white;}
+
+h1{
+    font-size: 50px;}
+
+.title{
+    font-size: 32px;color: black;margin: 20px;padding: 15px;}
+
+.title .dateAndTime{
+    font-size: 20px;margin: 2px;padding: 2px;position: relative;}
+
+button{
+    size: 1px;}
+
+.conversion{
+    padding: 40px;}
+
+.weatherSec{
+    padding: 40px;}
+
+h3{
+    display: inline-block;}
+
+.degreeSec{
+    display: flex;}
+
+.degreeSec .dsDegree{
+    font-size: 34px;margin-right: 5px;}
+    
+.degreeSec .Celsius, .degreeSec .convFaranheit{
+    cursor: pointer;font-size: 14px; margin: 5px; margin-top: 3px;}

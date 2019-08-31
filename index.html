@@ -1,0 +1,82 @@
+<!-- Author : Guru
+     Description : Simple weather application developed to view 
+     the weather details.  -->
+     <!DOCTYPE html>
+     <html>
+        <head>
+            <title>Weather Application</title>
+    
+            <!-- Metadata is data (information) about data.
+            The <meta> tag provides metadata about the HTML document. Metadata 
+            will not be displayed on the page, but will be machine parsable.
+            Meta elements are typically used to specify page description, 
+            keywords, author of the document, last modified, and other metadata.
+            The metadata can be used by browsers (how to display content or reload 
+            page), search engines (keywords), or other web services.
+            Element : <Meta> Supported by chorome:yes,Internet Explorer:yes,
+            Mozilla:yes,Safari:yes,Opera:yes-->
+    
+            <meta charset="UTF-8">
+            <meta name="description" content="This is a weather application 
+            provides weather destails of cities,">
+            <meta name="author" content="Guru">
+    
+            <!-- A <meta> viewport element gives the browser instructions on 
+            how to control the page's dimensions and scaling.
+            The width=device-width part sets the width of the page to follow the 
+            screen-width of the device (which will vary depending on the device).
+            
+            The initial-scale=1.0 part sets the initial zoom level when the page 
+            is first loaded by the browser. -->
+    
+            <meta name="viewport" content="width = device-width, 
+            initial-Scale = 1.0">
+    
+            <link rel="stylesheet" href="style.css">
+<head>
+    <title> WeatherApp</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container flex alignCenter">
+            <div class="flex1 ">
+                <div class="appName">
+                    <h1 class="">Weather <span> app </span></h1>                
+                </div>
+            </div>
+            <div class="flex1">
+                <div class="weatherSec">
+                    <h3 class="city">Bangalore</h3>, <h3 class="state">Karnataka</h3>
+                    <div class="DateTime">
+                        <span class="dtDay">Friday</span>
+                        <span class="dtTime">8:00 am</span>
+                    </div>
+                    <div class="weather">Partly Cloud</div>
+                    <div class="degreeSec">
+                        <div class="dsDegree">26</div>
+                        <div class="Celsius">&deg;c</div>
+                        <span>|</span>
+                    </div>
+                    <p>Enter City Name</p>
+                    <div>
+                        <input id="cityName" type="text" name="city" placeholder="City name" list="citylist">
+                        <datalist id="citylist">  
+                            <option value="Bangalore"></option> 
+                            <option value="Chennai"></option> 
+                            <option value="Thiruvanandhapuram"></option> 
+                            <option value="panaji"></option> 
+                            <option value="New Delhi"></option> 
+                            <option value="Kolkata"></option> 
+                            <option value="Lucknow"></option> 
+                            <option value="Patna"></option> 
+                        </datalist>
+                        <button onclick="updateWeather()">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
