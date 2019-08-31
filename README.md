@@ -6,4 +6,4 @@ Simple Weather application designed and developed to view the weather details of
 
 Basic HTML, CSS and JAVA SCRIPT.
 
-This Application Provides weather details containing city name, state name,climate along with temperature in celsius.
+This Application Provides weather details containing city name, state name and climate along with temperature in celsius.
