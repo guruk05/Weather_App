@@ -2,7 +2,7 @@
 
 Simple Weather application designed and developed to view the weather details of various cities.
 
-Built with :
+𝐁𝐮𝐢𝐥𝐭 𝐰𝐢𝐭𝐡 :
 
 Basic HTML, CSS and JAVA SCRIPT.
 
