@@ -6,10 +6,10 @@ Weather application designed and developed to view the weather details of variou
 
 <a href="https://github.com/guruk05">Guru Prasath</a>
 
-𝐁𝐮𝐢𝐥𝐭 𝐰𝐢𝐭𝐡 :
+# Built with
 
 Basic HTML, CSS and JAVA SCRIPT.
 
-𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 :
+# Description
 
 This Application Provides weather details containing city name, state name and climate along with temperature in celsius.
