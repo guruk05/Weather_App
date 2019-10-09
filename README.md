@@ -1,6 +1,6 @@
 # Weather_App
 
-Weather application designed and developed to view the weather details of various cities.
+Weather application developed to view the weather details of various cities 
 
 # Author
 
